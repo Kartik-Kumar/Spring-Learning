@@ -3,6 +3,7 @@ package com.example.config;
 import com.example.beans.Vehicle;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 
 import javax.xml.validation.Validator;
 
@@ -31,6 +32,7 @@ public class ProjectConfig {
     }
 
     @Bean(value = "v2")
+    //@Primary     you can not have two primary annotation because it will create ambiguity
     Vehicle vehicle2() {
         var veh = new Vehicle();
         veh.setName("2nd vehicle");
@@ -38,6 +40,7 @@ public class ProjectConfig {
     }
 
     @Bean("v3")
+    @Primary            // in case of ambiguity/ name not provided this will be considered in injection
     Vehicle vehicle3() {
         var veh = new Vehicle();
         veh.setName("3rd vec");
