@@ -18,9 +18,15 @@ public class Example {
         * */
         var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
 
-        Vehicle veh = context.getBean(Vehicle.class);
+        // exception : No qualifying bean of type 'com.example.beans.Vehicle
+        //Vehicle veh = context.getBean(Vehicle.class);
+
+        //overload of getBean = provide the name for the beans
+        Vehicle veh = context.getBean("vehicle1", Vehicle.class);
         System.out.println("Vehicle name from Spring Context is: " + veh.getName());
 
+        Vehicle veh2 = context.getBean("vehicle2", Vehicle.class);
+        System.out.println("Vehicle name from Spring Context is: " + veh2.getName());
         /*
         We don’t need to do any explicit casting while fetching a bean from context.
         Spring is smart enough to look for a bean of the type you requested in its context.

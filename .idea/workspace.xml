@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="159aa5cb-5e8c-467e-8f10-cde9b6652560" name="Changes" comment="All about spring">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/config/ProjectConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/main/Example.java" afterDir="false" />
+    <list default="true" id="159aa5cb-5e8c-467e-8f10-cde9b6652560" name="Changes" comment="basic exaple and setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/main/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/main/Example.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="example1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656867044076</updated>
-      <workItem from="1656867141114" duration="743000" />
+      <workItem from="1656867141114" duration="1353000" />
     </task>
     <task id="LOCAL-00001" summary="All about spring">
       <created>1656867222517</created>
@@ -79,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656867222517</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="basic exaple and setup">
+      <created>1656867954709</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656867954709</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="All about spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="All about spring" />
+    <MESSAGE value="basic exaple and setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic exaple and setup" />
   </component>
 </project>
