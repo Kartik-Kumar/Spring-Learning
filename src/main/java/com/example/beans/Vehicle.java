@@ -2,7 +2,10 @@ package com.example.beans;
 
 import org.springframework.stereotype.Component;
 
-@Component     // instruct this class can be converted to beans,  easy way of creating beans
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+@Component     // instruct this class can be converted to beans,   easy way of creating beans
 public class Vehicle {
 
     private String name;
@@ -17,5 +20,15 @@ public class Vehicle {
 
     public void printHello(){
         System.out.println("printing from vechicle bean");
+    }
+
+    @PostConstruct
+    public void initialize(){
+        this.name = "from initit @postConstruct";
+    }
+
+    @PreDestroy
+    public void destroy(){
+        System.out.println("trying to destroy the beaan");
     }
 }

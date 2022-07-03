@@ -13,5 +13,7 @@ public class Example {
         System.out.println("->" + veh.getName());
         veh.printHello();
 
+        context.close();   // call the preDetroy  // generally not reqquired
+
     }
 }
