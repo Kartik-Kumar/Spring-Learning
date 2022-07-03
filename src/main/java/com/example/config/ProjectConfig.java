@@ -21,21 +21,23 @@ public class ProjectConfig {
     this method when it initializes its context and adds the returned
     value to the context.
     * */
-    @Bean
+
+    //naming our beans using , name, value and without specifying any property all work same .
+    @Bean(name = "v1")
     Vehicle vehicle1() {
         var veh = new Vehicle();
         veh.setName("Audi 8");
         return veh;
     }
 
-    @Bean
+    @Bean(value = "v2")
     Vehicle vehicle2() {
         var veh = new Vehicle();
         veh.setName("2nd vehicle");
         return veh;
     }
 
-    @Bean
+    @Bean("v3")
     Vehicle vehicle3() {
         var veh = new Vehicle();
         veh.setName("3rd vec");
