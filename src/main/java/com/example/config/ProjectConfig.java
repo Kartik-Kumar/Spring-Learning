@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Primary;
 import javax.xml.validation.Validator;
 
 @Configuration
-@ComponentScan(basePackages = "com.example.beans")
+//@ComponentScan(basePackages = "com.example.beans")
 public class ProjectConfig {
 
 }

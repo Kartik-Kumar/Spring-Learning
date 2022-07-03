@@ -2,7 +2,6 @@ package com.example.beans;
 
 import org.springframework.stereotype.Component;
 
-@Component     // instruct this class can be converted to beans,  easy way of creating beans
 public class Vehicle {
 
     private String name;
