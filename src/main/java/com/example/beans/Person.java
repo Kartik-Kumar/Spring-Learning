@@ -8,14 +8,13 @@ import javax.annotation.PostConstruct;
 @Component
 public class Person {
 
-    //    public Person(Vehicle vehicle) {
     public Person() {
         System.out.println("Person is created");
-        //this.vehicle = v;
     }
     private String name;
-    @Autowired // @Autowired(required = false) will avoid the NoSUchBeanDefinationException if the bean is not available during Autowiring process
-    private Vehicle vehicle; //private final Vehicle vehicle;
+
+    //@Autowired
+    private Vehicle vehicle;
 
     public String getName() {
         return name;
@@ -29,6 +28,7 @@ public class Person {
         this.name = name;
     }
 
+    @Autowired //@Autowired(required = false)  // not prod  // it doesnt matter how bean created eithe rby @Component or @bean
     public void setVehicle(Vehicle vehicle) {
         this.vehicle = vehicle;
     }
@@ -38,3 +38,11 @@ public class Person {
         this.setName("Rama");
     }
 }
+
+
+// you can also do by consturctor
+//void person(Vehicle vehicle){
+//    this.vehicle = vehicle;
+//}
+
+//in this way, we can make the vechile private and final
