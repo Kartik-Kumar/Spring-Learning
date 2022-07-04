@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="159aa5cb-5e8c-467e-8f10-cde9b6652560" name="Changes" comment="Wiring beans using method Parameter">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/beans/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/beans/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/ProjectConfig.java" afterDir="false" />
-    </list>
+    <list default="true" id="159aa5cb-5e8c-467e-8f10-cde9b6652560" name="Changes" comment="inject bean using @AutoWire - use in prod&#10;&#10;but you need to use @Component" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656957546273</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="inject bean using @AutoWire - use in prod&#10;&#10;but you need to use @Component">
+      <created>1656959176101</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656959176101</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +147,7 @@
     <MESSAGE value="Creating beans programmatically using registerBean()" />
     <MESSAGE value="wiring and auto wiring - simple approch but should not be used in prod." />
     <MESSAGE value="Wiring beans using method Parameter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wiring beans using method Parameter" />
+    <MESSAGE value="inject bean using @AutoWire - use in prod&#10;&#10;but you need to use @Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="inject bean using @AutoWire - use in prod&#10;&#10;but you need to use @Component" />
   </component>
 </project>
