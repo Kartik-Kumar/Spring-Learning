@@ -2,6 +2,9 @@ package com.example.beans;
 
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+
+@Component
 public class Vehicle {
 
     public Vehicle() {
@@ -25,4 +28,10 @@ public class Vehicle {
     public String toString(){
         return "vehicle name is- " + name;
     }
+
+    @PostConstruct
+    public void settingVechicleName() {
+        this.setName("BMW");
+    }
+
 }
