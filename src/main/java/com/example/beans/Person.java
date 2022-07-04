@@ -8,12 +8,14 @@ import javax.annotation.PostConstruct;
 @Component
 public class Person {
 
+    //    public Person(Vehicle vehicle) {
     public Person() {
         System.out.println("Person is created");
+        //this.vehicle = v;
     }
     private String name;
-    @Autowired // @Autowired(required = false) will avooid the NoSUchBeanDefinationException if the bean is not available during Autowiring process
-    private Vehicle vehicle;
+    @Autowired // @Autowired(required = false) will avoid the NoSUchBeanDefinationException if the bean is not available during Autowiring process
+    private Vehicle vehicle; //private final Vehicle vehicle;
 
     public String getName() {
         return name;
