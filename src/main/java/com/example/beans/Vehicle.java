@@ -1,9 +1,10 @@
 package com.example.beans;
 
-import org.springframework.stereotype.Component;
-
 public class Vehicle {
 
+    public Vehicle() {
+        System.out.println("Vehicle is created");
+    }
     private String name;
 
     public String getName() {
@@ -16,5 +17,10 @@ public class Vehicle {
 
     public void printHello(){
         System.out.println("printing from vechicle bean");
+    }
+
+    @Override
+    public String toString(){
+        return "vehicle name is- " + name;
     }
 }

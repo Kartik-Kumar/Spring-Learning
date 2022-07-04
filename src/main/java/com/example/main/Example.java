@@ -1,5 +1,6 @@
 package com.example.main;
 
+import com.example.beans.Person;
 import com.example.beans.Vehicle;
 import com.example.config.ProjectConfig;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;
@@ -15,45 +16,11 @@ public class Example {
 
         var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
 
-        Vehicle audiVehicle = new Vehicle();
-        audiVehicle.setName("bean_created_using_audiSupplier");
-        Supplier<Vehicle> audiSupplier = () -> audiVehicle;
+        var person = context.getBean(Person.class);
+        var vehicle = context.getBean(Vehicle.class);
 
-        Supplier<Vehicle> marutiSupplier = () -> {
-            Vehicle marutiVehicle = new Vehicle();
-            marutiVehicle.setName("bean_created_using_MarutiSupplier");
-            return marutiVehicle;
-        };
-
-        Random random = new Random();
-        var r = random.nextInt(100);
-        System.out.println("Random number: " + r);
-        if(r % 2 == 0) {
-            context.registerBean("audiBean", Vehicle.class, audiSupplier);  // introduced in spring 5
-        }
-        else {
-            context.registerBean("marutiBean", Vehicle.class, marutiSupplier);
-        }
-
-        Vehicle audi = null, maruti = null;
-
-        try {
-            audi = context.getBean("audiBean", Vehicle.class);
-        }
-        catch (NoSuchBeanDefinitionException noSuchBeanDefinitionException) {
-            System.out.println("Error while creating audi bean");
-        }
-
-        try {
-            maruti = context.getBean("marutiBean", Vehicle.class);
-        }
-        catch (NoSuchBeanDefinitionException noSuchBeanDefinitionException) {
-            System.out.println("Error while creating maruti bean");
-        }
-
-        if(audi != null){
-            System.out.println(audi.getName());
-        }
-        else System.out.println(maruti.getName());
+        System.out.println("this is person - " + person.getName());
+        System.out.println("this is Vechicle-" + vehicle.getName());
+        System.out.println("this is person vehicle- " + person.getVehicle());
     }
 }
