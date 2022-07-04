@@ -29,9 +29,5 @@ public class Vehicle {
         return "vehicle name is- " + name;
     }
 
-    @PostConstruct
-    public void settingVechicleName() {
-        this.setName("BMW");
-    }
 
 }
