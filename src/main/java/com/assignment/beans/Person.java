@@ -2,9 +2,11 @@ package com.assignment.beans;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 @Component("PersonBean")
+@Lazy  //eager loading is default loading.
 public class Person {
     @Autowired
     public Person(@Qualifier("VehicleBean") Vehicle vehicle) {

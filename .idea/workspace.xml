@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f6a1754-e59a-455c-b661-e41a3e4a5e46" name="Changes" comment="Assignemet - main topic - auto wiring">
+    <list default="true" id="3f6a1754-e59a-455c-b661-e41a3e4a5e46" name="Changes" comment="@Scope for beans = SIgleton scope">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment/beans/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment/beans/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment/main/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment/main/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment/services/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment/services/VehicleService.java" afterDir="false" />
     </list>
@@ -67,6 +68,14 @@
       <updated>1656963480402</updated>
       <workItem from="1656963483836" duration="7963000" />
     </task>
+    <task id="LOCAL-00001" summary="@Scope for beans = SIgleton scope">
+      <created>1657039916504</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657039916504</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,5 +103,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Assignemet - main topic - auto wiring" />
+    <MESSAGE value="@Scope for beans = SIgleton scope" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Scope for beans = SIgleton scope" />
   </component>
 </project>
