@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f6a1754-e59a-455c-b661-e41a3e4a5e46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/beans/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/beans/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/config/ProjectConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/implementation/BoseSound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/implementation/CrtTyre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/implementation/MrfTyre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/implementation/SonySpeaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/interfaces/Speaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/interfaces/Tyre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/main/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/services/VehicleService.java" afterDir="false" />
+    <list default="true" id="3f6a1754-e59a-455c-b661-e41a3e4a5e46" name="Changes" comment="Assignemet - main topic - auto wiring">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment/main/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment/main/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment/services/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment/services/VehicleService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -49,13 +41,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.assignment.main.main" />
@@ -85,7 +77,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Assignment1/Assignment1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

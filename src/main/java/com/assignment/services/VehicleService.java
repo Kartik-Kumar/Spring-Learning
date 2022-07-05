@@ -3,9 +3,12 @@ package com.assignment.services;
 import com.assignment.interfaces.Speaker;
 import com.assignment.interfaces.Tyre;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.config.BeanDefinition;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
+@Scope(BeanDefinition.SCOPE_SINGLETON) // it is default scope
 public class VehicleService {
 
     @Autowired
