@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
-@Lazy
+@Scope(BeanDefinition.SCOPE_PROTOTYPE)
 public class VehicleService {
 
     @Autowired
