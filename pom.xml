@@ -27,10 +27,11 @@
             <version>5.3.21</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.maven.plugin-tools</groupId>
-            <artifactId>maven-plugin-annotations</artifactId>
-            <version>3.1</version>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>5.3.13</version>
         </dependency>
+
     </dependencies>
 
 </project>
